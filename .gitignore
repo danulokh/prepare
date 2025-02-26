@@ -1,0 +1,23 @@
+# Не пушимо конфіденційні файли WordPress
+wp-config.php
+wp-config-sample.php
+
+# Не пушимо кеш і тимчасові файли
+*.log
+*.sql
+*.sqlite
+*.zip
+
+# Не пушимо файли Composer/NPM, якщо вони є
+node_modules/
+vendor/
+
+# Не пушимо середовище IDE
+.idea/
+.vscode/
+
+# Не пушимо зображення, якщо вони не частина теми
+uploads/
+
+# Не пушимо файли MAMP/XAMPP
+/Applications/MAMP/db/
